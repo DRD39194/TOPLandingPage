@@ -1,0 +1,30 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #73020C;
+    padding: 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    background-color: #73020C;
+    padding: 20px;
+}
+
+#content_img {
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+}
