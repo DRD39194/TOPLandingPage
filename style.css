@@ -56,6 +56,8 @@ button {
     background-color: #55A603;
     border-radius: 6px;
     padding: 12px;
+    max-width: fit-content;
+    max-height: fit-content;
 }
 
 .info {
@@ -118,10 +120,14 @@ h4 {
     background-color: #F2F2F2;
     display: flex;
     justify-content: center;
+    padding: 80px;
 }
 
 .action {
     background-color: #267302;
     border-radius: 10px;
+    padding: 20px;
     display: flex;
+    width: 800px;
+    justify-content: space-evenly;
 }
