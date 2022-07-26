@@ -1,11 +1,12 @@
 body{
     font-family: Roboto, sans-serif;
+    font-size: 18px;
     margin: 0;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #262223;
     padding: 15px;
     color: #F2F2F2;
@@ -14,7 +15,7 @@ body{
 
 .header_logo {
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 24px;
 }
 
 ul {
@@ -27,7 +28,7 @@ ul {
     display: flex;
     justify-content: center;
     background-color: #262223;
-    padding: 20px;
+    padding: 50px;
     color: #F2F2F2;
 }
 
@@ -40,7 +41,14 @@ ul {
 }
 
 .text {
-    max-width: 300px;
+    max-width: 400px;
+}
+
+button {
+    all: unset;
+    background-color: #55A603;
+    border-radius: 6px;
+    padding: 12px;
 }
 
 .info {
